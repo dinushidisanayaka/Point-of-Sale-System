@@ -1,0 +1,86 @@
+/* ItemsPage.css */
+
+.items-page-container {
+  max-width: 100%;
+  margin: 10px 0px 10px 10px;
+  padding: 20px;
+  /* background-color: #f5f5f5; */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.items-h1 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  word-spacing: 3px;
+}
+
+.items-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.items-thead {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.items-tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.items-th,
+.items-td {
+  padding: 10px;
+}
+
+.items-th:first-child,
+.items-td:first-child {
+  padding-left: 20px;
+}
+
+.items-th:last-child,
+.items-td:last-child {
+  padding-right: 20px;
+}
+
+.items-td {
+  text-align: center;
+}
+
+.items-td:first-child {
+  text-align: left;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  .items-th,
+  .items-td {
+    padding: 8px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .items-page-container {
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+  }
+  .items-th,
+  .items-td {
+    font-size: 14px;
+    padding: 6px;
+  }
+}

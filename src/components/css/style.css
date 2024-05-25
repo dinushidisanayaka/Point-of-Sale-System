@@ -1,0 +1,29 @@
+button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Poppins", sans-serif;
+  margin: 10px;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+/* button disabled */
+button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+td,
+th {
+  /* padding: 10px; */
+  text-align: center;
+  /* border */
+}

@@ -1,0 +1,123 @@
+/* PointOfSale.css */
+
+.point-of-sale-container {
+  max-width: 100%;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.point-of-sale-heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  word-spacing: 3px;
+  
+}
+
+.point-of-sale-cart,
+.point-of-sale-products {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 80px;
+}
+
+.point-of-sale-cart-heading2,
+.point-of-sale-products-heading2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  word-spacing: 3px;
+}
+
+.point-of-sale-cart-list,
+.point-of-sale-products-list {
+  list-style: none;
+  padding: 0;
+}
+
+.point-of-sale-cart-item,
+.point-of-sale-products-item {
+  margin-bottom: 10px;
+}
+
+.point-of-sale-cart-total {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.point-of-sale-cart-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.point-of-sale-cart-button:hover {
+  background-color: #0056b3;
+}
+
+.point-of-sale-products-button {
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.point-of-sale-products-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  .point-of-sale-cart,
+  .point-of-sale-products {
+    width: 100%;
+  }
+
+  .point-of-sale-cart,
+  .point-of-sale-products {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .point-of-sale-container {
+     padding: 10px;
+    margin-top: 170px;
+    margin-bottom: 10px;
+  }
+
+  .point-of-sale-cart,
+  .point-of-sale-products {
+    width: 100%;
+  }
+
+  .point-of-sale-cart,
+  .point-of-sale-products {
+    margin-bottom: 20px;
+  }
+}   
+
+

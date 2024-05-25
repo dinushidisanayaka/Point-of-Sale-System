@@ -1,0 +1,91 @@
+/* StockManagement.css */
+.stock-management-container {
+  max-width: 100%;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  padding: 20px;
+
+  /* background-color: #f5f5f5; */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stock-management-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  word-spacing: 3px;
+}
+
+.stock-management-table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  /* center */
+}
+
+.stock-management-th,
+.stock-management-td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.stock-management-th {
+  font-weight: bold;
+}
+
+.stock-management-input {
+  width: 80px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* search box */
+.stock-management-search {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  .stock-management-heading {
+    font-size: 20px;
+  }
+
+  .stock-management-th,
+  .stock-management-td {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .stock-management-container {
+    padding: 10px;
+    margin-top: 170px;
+    margin-bottom: 10px;
+  }
+  .stock-management-input {
+    width: 60px;
+    padding: 4px;
+  }
+}
